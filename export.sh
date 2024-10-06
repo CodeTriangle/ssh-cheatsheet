@@ -2,6 +2,7 @@ PNG_COMMANDS=$(cat <<EOF
 export-type:png;
 export-dpi:300;
 export-area:0:0:528:816;
+export-background:#ffffffff;
 export-filename:out/ssh-cheatsheet.png;
 export-do;
 EOF
